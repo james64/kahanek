@@ -1,0 +1,43 @@
+/home/dubovsky/git/hub/james64/kahanek/out/mill/scalalib/ZincWorkerModule/worker/dest/2.13.1/unpacked/xsbt/DelegatingReporter.scala:166: warning: match may not be exhaustive.
+It would fail on the following inputs: ERROR, INFO, Severity(), WARNING
+    sev match {
+    ^
+warning: there were four deprecation warnings (since 2.12.0)
+warning: there were four deprecation warnings (since 2.12.5)
+warning: there were two deprecation warnings (since 2.13)
+warning: there were 6 deprecation warnings (since 2.13.0)
+warning: there were 16 deprecation warnings in total; re-run with -deprecation for details
+warning: there were three feature warnings; re-run with -feature for details
+7 warnings found
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/dubovsky/git/hub/james64/kahanek/out/kahanek/compile/dest/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dubovsky/git/hub/james64/kahanek/kahanek/src/james64/SimpleMavenRelease.scala:4:8: not found: object mill[0m
+[0m[[0m[31merror[0m] [0m[0mimport mill._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dubovsky/git/hub/james64/kahanek/kahanek/src/james64/SimpleMavenRelease.scala:5:8: not found: object mill[0m
+[0m[[0m[31merror[0m] [0m[0mimport mill.api.PathRef[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dubovsky/git/hub/james64/kahanek/kahanek/src/james64/SimpleMavenRelease.scala:6:8: not found: object mill[0m
+[0m[[0m[31merror[0m] [0m[0mimport mill.define.Task[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dubovsky/git/hub/james64/kahanek/kahanek/src/james64/SimpleMavenRelease.scala:7:8: not found: object mill[0m
+[0m[[0m[31merror[0m] [0m[0mimport mill.scalalib.JavaModule[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dubovsky/git/hub/james64/kahanek/kahanek/src/james64/SimpleMavenRelease.scala:8:8: not found: object mill[0m
+[0m[[0m[31merror[0m] [0m[0mimport mill.scalalib.publish.{Artifact, Dependency, Developer, Pom, PomSettings, Scope, VersionControl}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dubovsky/git/hub/james64/kahanek/kahanek/src/james64/SimpleMavenRelease.scala:9:8: not found: object os[0m
+[0m[[0m[31merror[0m] [0m[0mimport os.Path[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dubovsky/git/hub/james64/kahanek/kahanek/src/james64/SimpleMavenRelease.scala:16:34: not found: type JavaModule[0m
+[0m[[0m[31merror[0m] [0m[0mtrait SimpleMavenPublish extends JavaModule {[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dubovsky/git/hub/james64/kahanek/kahanek/src/james64/SimpleMavenRelease.scala:20:21: not found: type T[0m
+[0m[[0m[31merror[0m] [0m[0m  def pomSettings : T[PomSettings][0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dubovsky/git/hub/james64/kahanek/kahanek/src/james64/SimpleMavenRelease.scala:22:24: not found: value T[0m
+[0m[[0m[31merror[0m] [0m[0m  def publishVersion = T.input {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dubovsky/git/hub/james64/kahanek/kahanek/src/james64/SimpleMavenRelease.scala:23:15: not found: value os[0m
+[0m[[0m[31merror[0m] [0m[0m    val res = os.proc('git, 'describe, "--tags", "--dirty", "--broken", "--match", "v[0-9]*").call().out.trim[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m46 errors found[0m

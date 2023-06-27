@@ -1,0 +1,97 @@
+[
+    {
+        "label": "mill.scalalib.ZincWorkerModule.compilerInterfaceClasspath",
+        "millis": 435,
+        "cached": false
+    },
+    {
+        "label": "mill.scalalib.ZincWorkerModule.classpath",
+        "millis": 1060,
+        "cached": false
+    },
+    {
+        "label": "mill.scalalib.ZincWorkerModule.worker",
+        "millis": 49,
+        "cached": false
+    },
+    {
+        "label": "kahanek.upstreamCompileOutput",
+        "millis": 3,
+        "cached": false
+    },
+    {
+        "label": "kahanek.sources",
+        "millis": 7,
+        "cached": false
+    },
+    {
+        "label": "kahanek.generatedSources",
+        "millis": 2,
+        "cached": false
+    },
+    {
+        "label": "kahanek.allSources",
+        "millis": 2,
+        "cached": false
+    },
+    {
+        "label": "kahanek.allSourceFiles",
+        "millis": 9,
+        "cached": false
+    },
+    {
+        "label": "kahanek.transitiveLocalClasspath",
+        "millis": 2,
+        "cached": false
+    },
+    {
+        "label": "kahanek.resources",
+        "millis": 7,
+        "cached": false
+    },
+    {
+        "label": "kahanek.unmanagedClasspath",
+        "millis": 1,
+        "cached": false
+    },
+    {
+        "label": "kahanek.scalaVersion",
+        "millis": 2,
+        "cached": false
+    },
+    {
+        "label": "kahanek.platformSuffix",
+        "millis": 2,
+        "cached": false
+    },
+    {
+        "label": "kahanek.compileIvyDeps",
+        "millis": 2,
+        "cached": false
+    },
+    {
+        "label": "kahanek.scalaOrganization",
+        "millis": 4,
+        "cached": false
+    },
+    {
+        "label": "kahanek.scalaLibraryIvyDeps",
+        "millis": 23,
+        "cached": false
+    },
+    {
+        "label": "kahanek.ivyDeps",
+        "millis": 4,
+        "cached": false
+    },
+    {
+        "label": "kahanek.transitiveIvyDeps",
+        "millis": 4,
+        "cached": false
+    },
+    {
+        "label": "kahanek.compileClasspath",
+        "millis": 2146,
+        "cached": false
+    }
+]
